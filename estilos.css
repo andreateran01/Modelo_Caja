@@ -1,0 +1,40 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(135deg, #ea66c9, #ca9df7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.tarjeta {
+    background:linear-gradient(135deg, #b7f5af, #67f5a0);
+    width: 350px;
+    border-radius: 20px;
+    padding: 40px 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+.tarjeta:hover { /*aplica estilos cuando el usuario pone el cursor sobre el elemento*/
+    transform: translateY(-8px);/*Mueve la tarjeta hacia arriba, creando un efecto de flotación */
+    box-shadow: 0 16px 32px rgba(0, 0, 0, 0.5); /*Cambia la sombra de la tarjeta para hacerla más grande y más oscura.*/
+}
+.nombre {
+    color: #d968fe;
+    text-align: center;
+    font-size: 32px;
+    border-bottom: 3px solid #51ccd7;
+    padding-bottom: 15px;
+}
+.titulo{
+   text-align: center;
+   font-size: 20px;
+   color: #ee7ee1;
+}
+.contacto{
+    color: #080808;
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 3px solid #51ccd7;
+    padding-bottom: 15px;
+}
